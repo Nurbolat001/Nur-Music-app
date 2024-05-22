@@ -1,0 +1,44 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.nur_muz1.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/home" />
+
+    <fragment
+        android:id="@+id/navigation_music"
+        android:name="com.example.nur_muz1.ui.music.Music"
+        android:label="@string/title_music"
+        tools:layout="@layout/music"/>
+
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.example.nur_muz1.ui.user.User"
+        android:label="@string/title_user"
+        tools:layout="@layout/user"/>
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.example.nur_muz1.ui.favorites.Favorites"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/favorites"/>
+
+    <fragment
+        android:id="@+id/musicPlayFragment"
+        android:name="com.example.nur_muz1.ui.music_play.MusicPlay"
+        android:label="Music Play"
+        tools:layout="@layout/music_play">
+
+        <action
+            android:id="@+id/action_musicPlayFragment_to_homeFragment"
+            app:destination="@id/navigation_home" />
+
+
+    </fragment>
+
+</navigation>

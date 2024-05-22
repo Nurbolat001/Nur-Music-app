@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "545979583795",
+    "project_id": "music-db-bcebc",
+    "storage_bucket": "music-db-bcebc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545979583795:android:edd1a138064055e3a4c246",
+        "android_client_info": {
+          "package_name": "com.example.nur_muz1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkqj_wVggAqoTEy-OEyQoIzVlgvFUTELU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

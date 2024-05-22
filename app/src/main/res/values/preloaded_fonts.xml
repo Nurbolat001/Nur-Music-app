@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/baloo</item>
+        <item>@font/concert_one</item>
+        <item>@font/jockey_one</item>
+        <item>@font/mulish_medium</item>
+        <item>@font/oswald_bold</item>
+        <item>@font/sora_semibold</item>
+    </array>
+</resources>

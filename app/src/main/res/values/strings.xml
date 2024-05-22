@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Nur Music</string>
+    <string name="title_home" translatable="false">Главная</string>
+    <string name="title_music" translatable="false">Музыка</string>
+    <string name="title_user" translatable="false">Пользователь</string>
+    <string name="title_favorites" translatable="false">Избранное</string>
+    <string name="todo">TODO</string>
+    <string name="user001">User001</string>
+</resources>
